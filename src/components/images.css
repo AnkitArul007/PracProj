@@ -20,3 +20,28 @@
     object-position: center;
     border-radius: 0.5rem;
 }
+
+.pagination-cont{
+    height: fit-content;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pagination-cont > .pagination{
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.pagination-cont>.pagination.pagination__selected{
+    background-color: black;
+    color: #fff;
+}
+
+.pagination:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}

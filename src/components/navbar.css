@@ -55,6 +55,13 @@
     display: block;
 }
 
+.pagination{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid green;
+}
+
 @media screen and (max-width:700px){
     .wrapper{
         padding: 0;
@@ -66,6 +73,6 @@
         }
     .extra-info{
         right:5rem;
-        min-width:8rem
+        min-width:8rem;
     }
 }
