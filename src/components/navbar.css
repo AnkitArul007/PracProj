@@ -1,3 +1,5 @@
+
+
 .extra-options{
     display: none;
     min-width:8rem;
@@ -51,4 +53,19 @@
 
 .extra-info.show{
     display: block;
+}
+
+@media screen and (max-width:700px){
+    .wrapper{
+        padding: 0;
+    }
+
+    .extra-options{
+            top:1.5rem;
+            right:1rem;
+        }
+    .extra-info{
+        right:5rem;
+        min-width:8rem
+    }
 }
