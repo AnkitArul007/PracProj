@@ -1,0 +1,14 @@
+button{
+    border: none;
+    outline: none;
+    min-width: 3rem;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+    transition: all 1s ;
+}
+
+button:hover{
+    color: rgba(0,0,0,1);
+}

@@ -1,0 +1,22 @@
+.image-section-wrapper{
+    columns: 4;
+    gap: 1rem;
+}
+
+.image-section-wrapper>.image-cont{
+    margin-bottom: 1rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.image-section-wrapper>.image-cont:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.image-section-wrapper > .image-cont > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
