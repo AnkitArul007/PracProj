@@ -45,3 +45,33 @@
     background-color: lightgray;
     cursor: pointer;
 }
+
+@media screen and (max-width:1028px) {
+    .image-section-wrapper {
+        columns: 3;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .image-section-wrapper>.image-cont>img {
+        border-radius: 0.2rem;
+    }
+
+    .image-section-wrapper {
+        columns: 2;
+        gap: 0.5rem;
+    }
+
+    .image-section-wrapper>.image-cont {
+        margin-bottom: 0.35rem;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .image-section-wrapper {
+        columns: 1;
+        gap: 0.5rem;
+    }
+
+}

@@ -8,10 +8,10 @@ const Navbar = () => {
   const [showExtraInfo, setShowExtraInfo] = useState(false);
 
   return (
-    <div className="container pt-3 d-flex justify-content-between align-items-start">
+    <div className="wrapper container pt-3 d-flex justify-content-between align-items-start">
       <h3 className="fs-xs-6">The Image Library</h3>
 
-      <div className="links-cont d-flex gap-3">
+      <div className="links-cont d-flex gap-md-2">
         <div className="Links">
           <Button title="Home" />
         </div>
